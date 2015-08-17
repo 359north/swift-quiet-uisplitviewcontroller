@@ -19,7 +19,7 @@ We can further reduce unnecessary operations with appropriate use of the **shoul
 
 * Creates a single, persistent **TrueDetailViewController** owned by the **MasterViewController**
 
-* Makes the **MasterViewController** the **UISplitViewControllerDelegate** and only allows it to discard the secondary view controller in **splitViewController: collapseSecondaryViewController: ontoPrimaryViewController: ** when no row is selected, or no object has been set for **TrueDetailViewController**
+* Makes the **MasterViewController** the **UISplitViewControllerDelegate** and only allows it to discard the secondary view controller in **splitViewController: collapseSecondaryViewController: ontoPrimaryViewController:** when no row is selected, or no object has been set for **TrueDetailViewController**
 
 * When a new **DetailViewController** is created by a segue, adds the **TrueDetailViewController** to it as a child controller
 
