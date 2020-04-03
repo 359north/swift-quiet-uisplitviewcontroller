@@ -1,4 +1,4 @@
-##A Quiet UISplitViewController Example in Swift##
+## A Quiet UISplitViewController Example in Swift ##
 
 Xcode generates a **Master-Detail** project from its built-in templates, but there are a few behaviors in that project that can be improved.
 
@@ -15,7 +15,7 @@ Yes, we can!  By using view containment, we make a single copy of the **TrueDeta
 We can further reduce unnecessary operations with appropriate use of the **shouldPerformSegueWithIdentifier** and a UISplitViewControllerDelegate method that checks whether or not any items are selected in the master view.
 
 
-###Our example does the following:###
+### Our example does the following: ###
 
 * Creates a single, persistent **TrueDetailViewController** owned by the **MasterViewController**
 
@@ -29,7 +29,7 @@ We can further reduce unnecessary operations with appropriate use of the **shoul
 
 
 
-###The Result###
+### The Result ###
 
 We display the hash IDs and creation dates of both the DetailViewController and the child TrueDetailViewController so you can see their behavior as you create and tap items in the master list.
 
@@ -48,7 +48,7 @@ We display the hash IDs and creation dates of both the DetailViewController and 
 * Avoid the segue in situations where it is not needed
 
 
-###Note for Testing###
+### Note for Testing ###
 
 The iPhone 6 Plus, real or simulated, is great for testing this app as you can see all the possible split view cases on one device.
 
